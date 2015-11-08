@@ -9,6 +9,4 @@ import data.mysql.model.User;
 @Transactional
 public interface UserDAO extends CrudRepository<User, Integer> {
 
-	User findOne(Integer id);
-	
 }
